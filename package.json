@@ -1,13 +1,9 @@
 {
   "name": "adventofcode",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "description": "My solutions for adventofcode 2015",
+  "author": "Johan Lindskogen <johan@lindskogen.se>",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.3.13",
     "babel-core": "^6.3.13",
