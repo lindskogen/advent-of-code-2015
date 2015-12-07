@@ -12,12 +12,9 @@ fs.readFile('input', {encoding: 'utf-8'}, function(err, data) {
         .map(parseInstruction)
         .reduce(handleParsedInstruction, []);
 
-
-    console.log(JSON.stringify(lights));
-
     let litLights = lights.reduce((sum, row) =>
         sum + row.reduce((sum, light) => sum + light, 0),
     0);
 
-    console.log('litLights', litLights);
+    console.log('lightlevels', litLights);
 });
