@@ -1,0 +1,23 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.3.13",
+    "babel-core": "^6.3.13",
+    "babel-plugin-check-es2015-constants": "^6.3.13",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.3.13",
+    "babel-plugin-transform-es2015-block-scoping": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "expect": "^1.13.0"
+  },
+  "dependencies": {
+    "blueimp-md5": "^1.1.1"
+  }
+}
